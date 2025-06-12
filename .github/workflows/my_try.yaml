@@ -1,0 +1,20 @@
+name: My first workflow
+
+on: [push, fork]
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps: 
+        - name: Wellcome msg
+          run: echo "My frst GH Actions job"
+        
+        - name: List fils
+          run: ls
+        
+        - name: Read file
+          run: cat README.md
+
+        
+
+        
