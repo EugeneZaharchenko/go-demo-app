@@ -12,8 +12,11 @@ jobs:
         - name: List fils
           run: ls
         
+        - name: Move up
+          run: cd ../..
+
         - name: Read file
-          run: cat ../../README.md
+          run: cat README.md
 
 
         
